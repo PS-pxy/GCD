@@ -17,7 +17,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //gcd
-    UIView *view = [UIView new];
+    UIView *view = [[UIView alloc] init];
     [self.view addSubview:view];
 }
 
