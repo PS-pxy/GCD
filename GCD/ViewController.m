@@ -18,6 +18,7 @@
     // Do any additional setup after loading the view.
     //gcd
     UIView *view = [[UIView alloc] init];
+    view.backgroundColor = [UIColor redColor];
     [self.view addSubview:view];
 }
 
